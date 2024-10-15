@@ -261,8 +261,8 @@ const Main = () => {
   //Here is every 2 seconds checker of a person's profile in this game
   useEffect(() => {
     const fetcher = async () => {
-      const aptos = (network.name=='testnet') ? aptos_testnet : aptos_mainnet;
-      const game_id =  (network.name=='testnet') ? game_id_testnet : game_id_mainnet;
+      const aptos = (network?.name=='testnet') ? aptos_testnet : aptos_mainnet;
+      const game_id =  (network?.name=='testnet') ? game_id_testnet : game_id_mainnet;
       //Fetch the game object from the game registry
       const { games } = await aptos.getAccountResource({
         accountAddress: verifier_pkg.split(":")[0],
