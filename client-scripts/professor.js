@@ -328,7 +328,8 @@ async function process_answer(quest_id, game_id, student_address, student_aH_x, 
 //And tries to verify it with a proof on-chain
 async function process_attempt(game_id, data, P_xys_and_questions) {
     const { decoded_key, decoded_value } = data[0];
-    const { student_address = '', student_aH_x = '', student_aH_y = '', quest = '' } = decoded_value;
+    let { student_address = '', student_aH_x = '', student_aH_y = '', quest = '' } = decoded_value;
+    student_address = paddedHex(student_address);
     const quest_id = parseInt(quest, 10);
     console.log({ student_address, student_aH_x, student_aH_y, quest_id });
 
