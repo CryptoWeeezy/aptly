@@ -1,0 +1,20 @@
+{
+  "name": "ark-serializer",
+  "type": "module",
+  "collaborators": [
+    "Arthem <very@secret.org>"
+  ],
+  "version": "0.1.0",
+  "files": [
+    "ark_serializer_bg.wasm",
+    "ark_serializer.js",
+    "ark_serializer_bg.js",
+    "ark_serializer.d.ts"
+  ],
+  "main": "ark_serializer.js",
+  "types": "ark_serializer.d.ts",
+  "sideEffects": [
+    "./ark_serializer.js",
+    "./snippets/*"
+  ]
+}

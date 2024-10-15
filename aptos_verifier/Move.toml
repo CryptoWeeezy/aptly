@@ -1,0 +1,15 @@
+
+[package]
+name = "Promise-Zk3"
+version = "0.0.0"
+
+[addresses]
+aptos_verifier = "0xf4b48d15f591e0e9dd0a092d2f1e02c746d9717c9d2be9c9ffe80cba1add6934"
+aptos_token_objects = "0x4"
+aptos_token="0x3"
+
+[dependencies]
+AptosFramework = { git = 'https://github.com/aptos-labs/aptos-core.git',rev='main',subdir = 'aptos-move/framework/aptos-framework' }
+AptosTokenObjects = {git = 'https://github.com/aptos-labs/aptos-core.git',rev='main',subdir = 'aptos-move/framework/aptos-token-objects'}
+AptosStdlib = {git = 'https://github.com/aptos-labs/aptos-core.git',rev='main',subdir = 'aptos-move/framework/aptos-stdlib'}
+AptosToken = {git = 'https://github.com/aptos-labs/aptos-core.git',rev='main',subdir = 'aptos-move/framework/aptos-token'}
