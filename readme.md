@@ -1,6 +1,5 @@
 # 💎 Aptly
-Check our site with demo-quiz! https://aptly.netlify.app/
-Video-pitch https://youtu.be/tcPY302G1Kc
+Check our site with demo-quiz! https://aptly.netlify.app/ and video-pitch https://youtu.be/tcPY302G1Kc
 
 Safely blockchainify any puzzle game with zero-knowledge proofs.
 Async hash games were never possible onchain. Behold. First time in this world. 
