@@ -10,14 +10,14 @@ We solved this challenge with a new zk primitive [unlock.circom](unlock.circom).
 ## Original technology
 
 The protocol builds upon a solid zero-knowledge foundation, but adds an unexpected twist. 
-A new multi-party computation algorithm was researched for Promise project.
+A new multi-party computation algorithm was researched for Aptly project.
 More cryptography and technical details are in the second half of this readme.
 
 ## Community contribution
 A circom circuit, server/client api, and a smart contract on Aptos.
 This suite of tools allows anyone to run their puzzle game on-chain.
 
-Promise is a mathematical protocol to solve cheating in games once and for all. Plus a multidtude of other benefits.
+Aptly is a mathematical protocol to solve cheating in games once and for all. Plus a multidtude of other benefits.
 Read more to understand.
 
 ## A mathematical protocol 
