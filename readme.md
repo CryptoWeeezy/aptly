@@ -1,6 +1,8 @@
 # 💎 Aptly
 Check our site with demo-quiz! https://aptly.netlify.app/ and video-pitch https://youtu.be/tcPY302G1Kc
 
+Tech demo video - https://youtu.be/7Hfetu4h_-k
+
 Safely blockchainify any puzzle game with zero-knowledge proofs.
 Async hash games were never possible onchain. Behold. First time in this world. 
 We solved this challenge with a new zk primitive [unlock.circom](unlock.circom). Please see why this [circom circuit works here](zk-circuit.md).
